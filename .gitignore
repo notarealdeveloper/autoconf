@@ -1,3 +1,2 @@
-Makefile
-pyproject.toml
-README.md
+*.egg-info
+__pycache__
