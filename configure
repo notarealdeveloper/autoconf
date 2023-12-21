@@ -1,0 +1,6 @@
+#!/bin/bash
+
+AC=auto
+m4 ${AC}/config.m4 ${AC}/pyproject.toml.in > pyproject.toml
+m4 ${AC}/config.m4 ${AC}/Makefile.in > Makefile
+m4 ${AC}/config.m4 ${AC}/README.md.in > README.md
