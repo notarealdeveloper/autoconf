@@ -1,4 +1,4 @@
-PKG = PKGNAME
+PKG = __PKGNAME__
 
 build:
 	python -m build

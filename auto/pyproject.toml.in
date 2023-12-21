@@ -1,12 +1,12 @@
 [project]
-name = "PKGNAME"
-version = "PKGVER"
+name = "__PKGNAME__"
+version = "__PKGVER__"
 authors = [
-    { name="AUTHOR_NAME", email="AUTHOR_EMAIL" },
+    { name="__AUTHOR_NAME__", email="__AUTHOR_EMAIL__" },
 ]
-description = "PKGDESC"
+description = "__PKGDESC__"
 dependencies = [
 ]
 
 [project.urls]
-source = "PKGSRC"
+source = "__PKGSRC__"
